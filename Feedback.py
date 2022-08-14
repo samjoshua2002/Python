@@ -8,4 +8,4 @@ for i in range(int(input())):
     else:
         ans.append('Bad')
 for j in ans:
-    print(j)        
+    print(j)         
