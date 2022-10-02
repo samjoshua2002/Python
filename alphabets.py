@@ -13,5 +13,5 @@ for i in range(int(input())):
         ans.append("yes")
     else:
         ans.append("no")        
-for rubesh in ans:
-    print(rubesh)
+for sanjay_black_vishal in ans:
+    print(sanjay_black_vishal)
