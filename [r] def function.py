@@ -5,7 +5,7 @@ for i in range(int(input("Testcase : "))):                                #Testc
         newlist=list(set(mylist))
         if findmax<=len(mylist):
             newlist.sort(reverse=True)
-            a.append("Maximum-"+str(newlist[findmax-1]))
+            a.append("Maximum-"+ str(newlist[findmax-1]))
         else:
             return 0
     def nmin(mylist,findmin=1):                                           #Min function

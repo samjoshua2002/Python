@@ -1,4 +1,4 @@
-
+     
 a,b = map(int,input().split())
 x=str(a-b)
 if x[0]=='4':
@@ -6,5 +6,5 @@ if x[0]=='4':
 else:
   print(int('4'+x[1:]))
 
-
-             
+        
+              

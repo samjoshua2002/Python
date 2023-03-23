@@ -1,0 +1,58 @@
+print("\n")
+print("welcome to shapes program")
+print("\n")
+print("1.Parallogram\n2.Rhombus\n3.Trapezium\n4.Circumference\n5.Circle")
+print("\n")
+sam=int(input("Enter your choice: "))
+print("\n")
+if sam==1:
+    print("Parallogram")
+    print("\n")
+    b=int(input("Enter the breadth: "))
+    h=int(input("Enter the height: "))
+    x=b*h
+    print("Area of the parallelogram:  ",x)
+elif sam==2:
+    print("Rhombus")
+    print("\n")
+    d1=int(input("Enter the Diagonal 1: "))
+    d2=int(input("Enter the Diagonal 2: "))
+    y=0.5*d1*d2
+    print("Area of the rhombus:   ",y)
+elif sam==3:
+    print("Trapezium")
+    print("\n")
+    h=int(input("Enter the height: "))
+    a=int(input("Enter the a: "))
+    b=int(input("Enter the b: "))
+    z=0.5*h*(a+b)
+    print("Area of the Trapezium:   ",z)
+elif sam==4:
+    print("circumference")
+    print("\n")
+    print("1.Diameter method\n2.Radius method")
+    joel=int(input())
+    if joel==1:
+        print("Diameter Method")
+        print("\n")
+        d=int(input("Enter the Diameter: "))
+        h=3.14*d
+        print("Circumference: ",h)
+    else:
+        print("Radius Method")
+        print("\n")
+        r=int(input("Enter the radius: "))
+        u=2*3.14*r
+        print("Circumference: ",u)
+else:
+    print("circle")
+    print("\n")
+    r=int(input("Enter the radius: "))
+    re=3.14*r**r
+    print(re)
+
+
+
+
+
+
