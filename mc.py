@@ -62,5 +62,6 @@ output:
    Sepal.Length  Sepal.Width
 0           5.1          3.5
 1           4.9          3.0
-2           4.7          3.2
+3           4.7          3.2
+
 ''' 
