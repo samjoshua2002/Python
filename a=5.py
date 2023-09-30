@@ -1,3 +1,4 @@
+
 for i in range (int(input ())):
     n=int(input("no of persons "))
     m=int(input("first to be served "))
